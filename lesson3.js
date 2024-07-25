@@ -66,3 +66,7 @@ console.log(sortedStart);
 
 const sortedName = companies.sort((c1, c2) => c1.name.localeCompare(c2.name));
 console.log(sortedName);
+
+//reduce
+
+console.log(ages.reduce((acc, ele) => acc + ele, 0));
