@@ -27,19 +27,19 @@ const users = [
   },
 ];
 
-Find Method
+// Find Method
 const userName = (name, users) => {
   const user = users.find((user) => user.name === name);
   return Boolean(user);
 };
 
-FindIndex;
+// FindIndex;
 const userName = (name, users) => {
   const user = users.findIndex((user) => user.name === name);
   return user >= 0;
 };
 
-some
+// some
 const userName = (name, users) => {
   const user = users.some((user) => user.name === name);
   return user;
@@ -47,7 +47,7 @@ const userName = (name, users) => {
 
 console.log(userName("Ajay", users));
 
-Adding elements to arrary using Push method
+// Adding elements to arrary using Push method
 
 const arr = [1, 2, 3];
 
@@ -60,7 +60,7 @@ const newArray = append(5);
 console.log(newArray);
 console.log(arr);
 
-adding elements to the array using spread operator
+// adding elements to the array using spread operator
 
 const arr = [1, 2, 3];
 
@@ -73,7 +73,7 @@ const newArray = append(5);
 console.log(newArray);
 console.log(arr);
 
-Remove Dublicate from array using loop
+// Remove Dublicate from array using loop
 
 const arr = [1, 2, 3, 3, 4, 5, 4];
 
@@ -90,7 +90,7 @@ const uniqueArr = () => {
 
 console.log(uniqueArr());
 
-Remove dublicate using set
+// Remove dublicate using set
 
 const arr = [1, 2, 3, 4, 4, 3, 2, 6];
 
@@ -102,7 +102,7 @@ const uniqueArr = (arr) => {
 
 console.log(unique);
 
-removing dublicated using reduce//
+// removing dublicated using reduce
 
 const arr = [1, 2, 3, 4, 4, 3, 2, 6];
 
@@ -114,7 +114,7 @@ const uniqueArr = () => {
 
 console.log(uniqueArr());
 
-mergeing Array
+// mergeing Array
 
 arr1 = [1, 2];
 arr2 = [3, 4];
@@ -126,7 +126,7 @@ const mergeArray = () => {
 const result = mergeArray(arr1, arr2);
 console.log(result);
 
-merging array using
+// merging array using
 
 concat array
 
